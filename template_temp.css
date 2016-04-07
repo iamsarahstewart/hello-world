@@ -1,0 +1,590 @@
+/* Reset handled by skeleton */
+
+#mcontent, #mcontent div { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Global with sticky footer */
+
+#mcontent img.bg {
+	/* Set rules to fill background */
+	#mcontent min-height: 100%;
+	min-width: 1024px;
+	/* Set up proportionate scaling */
+	#mcontent width: 100%;
+	height: auto;
+	/* Set up positioning */
+	#mcontent position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	}
+	
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+	#mcontent img.bg {
+		left: 50%;
+		margin-left: -512px;   /* 50% */
+		}
+}
+	
+#mcontent html {
+	height: 100%;
+	overflow-y: scroll;
+	}
+	
+#mcontent #login-place {
+	background: none repeat scroll 0 0 #444444;
+	display: block;
+	position: absolute;
+	right: 0px;
+	top: 16px;
+	width: 25px;
+	height:55px;
+	}
+
+#mcontent #login-place a, #mcontent #login-place a:hover {
+	color: #ddd;
+	}
+
+#mcontent .body {
+	height: 100%;
+	color: #555;
+	background: none;
+	}
+
+#mcontent li {
+	margin-left: 30px;
+	}
+
+#mcontent p {
+	line-height: 1.5em;
+	margin-bottom: 1.5em;
+	}
+	
+#mcontent a img {
+	border-style: none;
+	}
+
+#mcontent .results li {
+	margin-top: 8px;
+	}
+
+	
+/* Layout */
+
+
+#mcontent #siteWrapper { background: transparent repeat 0% 0%; background-attachment: scroll; background-size: auto auto;-webkit-background-size:auto auto; -moz-background-size:auto auto; -o-background-size:auto auto;}
+
+#mcontent #headerStrip {
+	height:8px;
+	width:100%;
+	}
+	
+#mcontent #header {
+	position: relative;
+	}
+
+#mcontent #header	#header_div {
+	background: none;
+}
+
+#mcontent #footerWrapper {
+	height: 90px;
+	padding-top:20px;
+	}
+
+#mcontent #sideWrapper p {
+	word-wrap: break-word;
+	}
+
+#mcontent #sideWrapper h3 {
+	padding-bottom: 10px;
+	}
+	
+#mcontent .box {
+	/*height: 180px;*/
+	#mcontent padding: 15px;
+	font-size: 1.1em;
+	}
+
+#mcontent .clearBoth {
+	clear: both;
+	}
+
+#mcontent .clearLeft {
+	clear: left;
+	}
+
+#mcontent .clearRight {
+	clear: right;
+	}
+
+#mcontent .hidden {
+	display: none;
+	}
+
+#mcontent .push {
+	clear: both;
+	height: 60px;
+	}
+	
+#mcontent #copyright {
+	padding-top: 20px;
+	color: #ddd;
+	font-size: 12px;
+	text-align: center;
+	}
+
+#mcontent #copyright a {
+	text-decoration: none;
+	color: #ddd;
+	}
+
+#mcontent #copyright a:hover {
+	text-decoration: underline;
+	color: #888;
+	}
+	
+#mcontent #social {
+	float: right;
+	margin-top:10px;
+	}
+	
+#mcontent #social a:hover {
+	position:relative;
+	top:-1px;
+	left:-1px;
+	}
+	
+#mcontent #logo192 {
+	float: left;
+	margin-top: 17px;
+	}
+	
+/* Joomla */
+
+
+#mcontent .contentpane {
+	padding: 0;
+	margin: 0;
+	}
+
+#mcontent .article_seperator {
+	height: 0;
+	display: none;
+	} 
+
+#mcontent .moduletable {
+  	margin: 0;
+  	padding: 0;
+	}
+
+#mcontent .mceContentBody {
+	background: #CCC none;
+	height: auto !important;
+	}
+
+#mcontent table.contentpaneopen {
+	border-collapse: collapse;
+	border-spacing: 0;
+	padding: 0;
+	margin: 0;
+	}
+
+#mcontent .xmap li {
+	text-transform: capitalize;
+	}
+
+#mcontent .formButton:hover {
+	cursor: pointer;
+	}
+
+#mcontent #josForm label {
+	float: left;
+	width: 120px;
+	display: block;
+	}
+
+#mcontent .form-login label {
+	float: left;
+	width: 100px;
+	display: block;
+	}
+
+#mcontent #josForm div, #mcontent .form-login input {
+	margin-bottom: 10px;
+	}
+	
+#mcontent #contact_box {
+	/* width:320px !important; */
+	}
+
+#mcontent #fancybox-content {
+	padding: 45px 10px 10px 10px !important;
+	background: white;
+	width: 350px;
+	}
+
+#mcontent #fancybox-title {
+	margin-left: 0 !important;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	}
+	
+/* Joomla System Message */
+
+
+#mcontent #system-message dd ul {
+	color: #303067;
+	margin-bottom: 10px;
+	list-style-type: none;
+	list-style-image: none;
+	list-style-position: outside;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #303067;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #303067;
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+#mcontent #mobileWrapper {
+	display: none;
+	}
+	
+#mcontent .mobile_button {
+	display: block;
+	width: 100%;
+	height: 40px;
+	background: #777;
+	transition: background 0.5s;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	line-height: 40px;
+	margin-bottom: 2px;
+	}
+	
+#mcontent .mobile_button:hover {
+	background: #000;
+	color: #fff;
+	text-decoration: none;
+	}
+	
+#mcontent #dot {
+	position: absolute;
+	left: 447px;
+	top: -8px;
+	background: url(../images/dot.png);
+	width:65px;
+	height:20px;
+	}
+	
+#mcontent .fieldHolder {
+	margin-bottom: 10px;
+	}
+	
+#mcontent .pointer {
+	cursor: pointer;
+	}
+
+#mcontent #chbn, #mcontent #user-tselector {
+	color: #800000;
+	text-decoration: underline;
+	font-weight: bold;
+	}
+
+#mcontent #contentBackground{
+	background: #fff;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	}
+	
+#mcontent .add-bottom {
+	margin-bottom:15px;
+	}
+	
+#mcontent #componentWrapper {
+	padding-top:15px;
+	padding-right:0px;
+	}
+	
+#mcontent #sideWrapper {
+	padding:15px 15px 5px;
+	}
+
+#mcontent #sideOuter {
+	padding-top:15px
+	}
+	
+#mcontent .ctabox {
+	width:280px;
+	float:left;
+	}
+	
+#mcontent .ctamid {
+	margin:0 20px 0;
+	}
+	
+#mcontent #map {
+	clear: both;
+	}
+	
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 991px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	#dot {
+		left: 350px;
+		}
+	
+	#mcontent #logo {
+		width: 40%;
+		}
+		
+#mcontent #componentWrapper {
+	padding-right:15px;
+	}
+	
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	#bannerWrapper {
+		display: none;
+		}
+		
+	#mcontent #mobileWrapper {
+		display: block;
+		}
+
+	#mcontent #map iframe {
+		height: 100px;
+		}
+		
+	#mcontent #dot {
+		left: 178px;
+		}
+		
+	#mcontent #logo {
+		width:65%;
+		left:5px;
+		font-size: 20px;
+		}
+		
+	#mcontent #login-place {
+		display:none;
+		}
+		
+	#mcontent #componentWrapper {
+		padding-right:15px;
+		float:none;
+		}
+		
+	#mcontent #component {
+		min-height:auto;
+		}
+
+	#mcontent #contentBackground {
+
+		}
+	
+	#mcontent #tagline {
+		font-size: 15px;
+		width: auto;
+		line-height: 25px;
+		}
+	
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+	#componentWrapper {
+		padding-right:15px;
+		float:none;
+		}
+	
+	#mcontent #bannerWrapper {
+		display: none;
+		}
+		
+	#mcontent #map, #mcontent #logo192 {
+		display: none;
+		}
+	
+	#mcontent #mobileWrapper {
+		display: block;
+		}
+
+		
+	#mcontent #social {
+		float: none;
+		margin: 0 auto;
+		width: 128px;
+		padding-top:10px;
+		}
+		
+	#mcontent #dot {
+		display: none;
+		}
+	
+	#mcontent #logo {
+		width:90%;
+		position:relative;
+		margin:0 auto;
+		left:0;
+		top:20%;
+		}
+		
+	#mcontent #login-place {
+		display:none;
+		}
+		
+	#mcontent #componentWrapper {
+		float:none;
+		}
+	
+	#mcontent #component {
+		min-height:auto;
+		}
+
+	#mcontent #header {
+
+		}
+	
+	#mcontent #logodiv {
+		top: 30px;
+		}
+		
+	#mcontent #tagline {
+		display: none;
+		}
+		
+	#mcontent #contentBackground {
+
+		}
+	
+	}
+
+
+	
+
+#mcontent .tz_background { background:url("http://www.trendzerdev.co.uk/themes/images/Sunsational%20Safari533ac92d66e53_background.jpg") rgb(242, 139, 0) 0% 0% repeat-x scroll; background-size:auto auto; -webkit-background-size:auto auto; -moz-background-size:auto auto; -o-background-size:auto auto; }
+
+#mcontent #logo, #mcontent #logodiv {
+	position: absolute;
+	bottom: 85px;
+	font-family: Oswald, #mcontent Arial, #mcontent Helvetica, #mcontent sans-serif;
+	font-size: 84px;
+	color: #97940F;
+	line-height: 65px;
+	font-weight: bold;
+	width:100%;
+	text-align:center;
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+	}
+
+#mcontent #tagline {
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+	top: 136px;
+	width: 600px;
+	font-family: 'Open Sans', #mcontent sans-serif;
+	line-height: 28px;
+	}
+	
+#mcontent #headerStrip{
+	background: #233170;
+	}
+
+#mcontent #headerWrapper {
+
+	}
+	
+#mcontent #component {
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding:15px;
+	}
+	
+#mcontent #side1 {
+	background: url(../images/icon_contact.png) top right no-repeat #591516;
+	}
+	
+#mcontent #side2 {
+	background: url(../images/icon_location.png) top right no-repeat #97940f;
+	}
+	
+#mcontent #side3 {
+	background: url(../images/icon_opening.png) top right no-repeat #093a58;
+	}
+	
+#mcontent .cbPageInner, #mcontent #cbProfileInner, #mcontent #cbEditProfileInner, #mcontent #cbUsersListInner {
+    color: #000;
+	}
+
+	
+	
+/* Cookie Control Fixes */
+
+#mcontent .jlcookie_controlClose {
+	right: 8px;
+	top: 8px;
+	color: #fff;
+	}
+	
+#mcontent #jlcookie_controlMsgFirst, #mcontent #jlcookie_controlMsgFirst strong, #mcontent #jlcookie_controlMsgFirst p {
+	font-family: Geneva, #mcontent Arial, #mcontent Helvetica, #mcontent sans-serif;
+	color: #fff;
+	}
+	
+#mcontent .jlcookie_controlDeny, #mcontent .jlcookie_controlAllow {
+	font-size: 11px;
+	}
+	
+#mcontent #navigation {
+	margin-bottom: 10px;
+	}
+	
+#mcontent #menuWidget ul#mainlevel li a {
+	font-size:15px !important;
+	}
+	
+#mcontent .dropzone {
+	/*min-height:5px;
+	background: #ff0;*/
+	}
+	
+#mcontent #component {
+	background: none;
+	box-shadow: none;
+}
+
+#mcontent div[id^="app"] {
+	margin-bottom: 10px;
+}

@@ -1,0 +1,109 @@
+
+body,
+p, ul {
+	color: #8b8b8b;
+}
+
+a,
+a:visited {
+  color: #f7971c;
+}
+
+a:hover {
+  color: #f7971c;
+}
+
+h1,
+h2,
+h3 {
+	color: #8b8b8b;
+}
+
+#contentBackground {
+	background: #ffffff;
+}
+
+#sideWrapper {
+	background: #dddddd;
+	color: #333333;
+}
+
+#sideWrapper h1,
+#sideWrapper h2,
+#sideWrapper h3,
+#sideWrapper p {
+	color: #333333;
+}
+
+#sideWrapper div[id^="app_content"] a,
+#sideWrapper div[id^="app_content"] a:visited {
+	color: #333333;
+	opacity: 0.5;
+}
+
+#sideWrapper div[id^="app_content"] a:hover,
+#sideWrapper div[id^="app_content"] a:focus {
+	opacity: 0.8;
+}
+
+#footerWrapper,
+#footerWrapper p {
+	color: #333333;
+}
+
+#footerWrapper a,
+#footerWrapper a:visited {
+	color: #333333;
+	opacity: 0.5;
+}
+
+#footerWrapper a:hover,
+#footerWrapper a:focus {
+	opacity: 0.8;
+}
+
+.main_background {
+	background: #dddddd; /* mobile buttons */
+}
+
+.contrast_background {
+	background: #f28b00;
+}
+
+.mainlevel .contrast_background {
+	background: #dddddd;
+}
+
+.highlight_colour {
+	color: #f7971c;
+}
+
+#headerStrip {
+	background: #f28b00;
+}
+
+.main_colour {
+	color: #ffffff;
+}
+
+.mainlevel,
+a.mainlevel{
+	color: #333333;
+}
+
+.position1 {
+	background: #dddddd;
+}
+
+.position2 {
+	background: #333333;
+}
+
+.position3 {
+	background: #ffffff;
+}
+
+.mobile_button:hover {
+	background: #f28b00;
+	color: #333333;
+}
